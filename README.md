@@ -5,7 +5,7 @@ It contains 2 main pages : "Posts" and "New Post", that can be easily switched b
 
 ## Posts page
 This page shows user all available posts with an ability to see more detailed information by clicking "See more" button.
-![start page](https://imgur.com/26YFCOi).png)
+![start page](https://imgur.com/26YFCOi.png)
 
 
 
