@@ -1,7 +1,7 @@
 # Blog React Application
 
-This application iswas implemented using React.js library and Redux state manager.
-It contains 2 main pages : "Posts" and "New Post", that can be easile switched using header tabs.
+This application was implemented using React.js library and Redux state manager.
+It contains 2 main pages : "Posts" and "New Post", that can be easily switched between each other using header tabs.
 
 ## Posts page
 This page shows user all available posts with an ability to see more detailed information by clicking "See more" button.
@@ -9,15 +9,17 @@ This page shows user all available posts with an ability to see more detailed in
 
 
 After clicking this button the user can see the whole post with its comments, has an ability to add his own comment and also edit or delete post.
+
 ![post page](https://imgur.com/776wvml.png)
+
 ![post page edit](https://imgur.com/HWxlqnz.png)
 
 ## New Post page
 
-This page ets the user to create a new post by entering title and body. Post can not be created if fields are empty.
+This page lets the user to create a new post by entering title and body. Post can not be created if fields are empty.
+
 ![new post page](https://imgur.com/ygUqLPa.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
