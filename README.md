@@ -1,6 +1,12 @@
 # Blog React Application
 
-This application was implemented using React.js library and Redux state manager.
+Technology stack:
+1. React.js
+2. Redux state manager
+3. React hooks
+4. React router
+5. Material UI
+
 It contains 2 main pages : "Posts" and "New Post", that can be easily switched between each other using header tabs.
 
 ## Posts page
