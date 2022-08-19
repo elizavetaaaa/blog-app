@@ -1,0 +1,19 @@
+.header{
+  height: 30px;
+  display: flex;
+  padding:  20px;
+  margin-bottom: 20px;
+  column-gap: 20px;
+  background-color: #2971ad;
+  &__tab{
+    text-align: center;
+    color: #1976d2;
+  }
+
+  &__link{
+    color: #fff;
+  }
+  &__link:hover{
+    font-weight: bold;
+  }
+}

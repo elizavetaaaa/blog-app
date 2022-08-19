@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  //margin: 0;
+  //padding: 0;
+  //box-sizing: border-box;
+}
 .App {
   text-align: center;
+  padding: 0 30px;
+}
+body{
+  background-color: #00000010;
+
 }
 
 .App-logo {
@@ -11,7 +24,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+}new-post
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +49,6 @@
     transform: rotate(360deg);
   }
 }
+@import "styles/posts";
+@import "styles/new-post";
+@import "styles/header";

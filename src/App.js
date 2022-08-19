@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import React, {useEffect} from "react";
+import Header, {MyTabs} from "./components/Header";
+import {Container} from "@mui/material";
+import {useDispatch} from "react-redux";
+import {getPosts} from "./redux/reducer/postsReducer";
+import Ways from "./router/Routes";
+
+function TabPanel(props) {
+    return null;
+}
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+    return (
+        <div className="App">
+                <Header/>
+                <Ways/>
+        </div>
+    );
 }
 
 export default App;
