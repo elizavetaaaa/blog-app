@@ -5,7 +5,8 @@ It contains 2 main pages : "Posts" and "New Post", that can be easily switched b
 
 ## Posts page
 This page shows user all available posts with an ability to see more detailed information by clicking "See more" button.
-![start page](https://imgur.com/a/ZvdwRh1.png)
+![start page](https://imgur.com/26YFCOi).png)
+
 
 
 After clicking this button the user can see the whole post with its comments, has an ability to add his own comment and also edit or delete post.
