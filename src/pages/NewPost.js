@@ -43,7 +43,7 @@ const NewPost = () => {
                         onChange={postChangeHandler}/>
 
             <div className="new-post__msg" style={{display: message.length ? 'block': 'none'}}>{message}</div>
-            <Button className="new-post__btn" variant="contained" style={{width: '200px'}} type='submit'
+            <Button className="new-post__btn" variant="contained"  type='submit'
             >Create Post</Button>
 
         </form>
