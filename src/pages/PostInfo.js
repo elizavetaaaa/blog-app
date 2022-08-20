@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -12,14 +11,6 @@ import {TextField} from "@mui/material";
 import {useEffect, useState} from "react";
 import {FaComment} from "react-icons/fa";
 
-const bull = (
-    <Box
-        component="span"
-        sx={{display: 'inline-block', mx: '2px', transform: 'scale(0.8)'}}
-    >
-        •
-    </Box>
-);
 
 export default function PostInfo() {
     const navigate = useNavigate();
@@ -64,7 +55,6 @@ export default function PostInfo() {
     };
     useEffect(() => {
         dispatch(setEdiAction(false));
-
     }, [])
 
 
